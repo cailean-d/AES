@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="AES">
+    <output-path>$PROJECT_DIR$/out/artifacts/AES</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="Program for AES Encryption" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="AES Enctyption" />
+        <option name="vendor" value="1.0.0" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="AES.jar">
+        <element id="module-output" name="AES" />
+      </element>
+    </root>
+  </artifact>
+</component>
