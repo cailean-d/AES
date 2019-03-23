@@ -15,7 +15,7 @@ public class Controller {
     @FXML public TextArea text;
     @FXML public TextArea output;
 
-    private AESWrapper aes = new AESWrapper();
+    private AES aes = new AES();
 
     @FXML private void encodeMessage() throws Exception {
         String _key = this.key.getText();
